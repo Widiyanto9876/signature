@@ -122,7 +122,9 @@ class _HomeState extends State<Home> {
             key: const Key('signature'),
             controller: _controller,
             height: 300,
-            backgroundColor: Colors.grey[300]!,
+            decoration: BoxDecoration(
+              color: Colors.grey[300],
+            ),
           ),
           //OK AND CLEAR BUTTONS
 
